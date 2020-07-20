@@ -1,0 +1,27 @@
+{
+    "name": "dashboard",
+    "productName": "dashboard Project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "repository": "",
+    "author": "Rayan",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^9.1.0"
+    },
+    "scripts": {
+        "start": "electron .",
+        "start-mac": "/Applications/Electron.app/Contents/MacOS/Electron ."
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.2.1",
+        "popper.js": "^1.14.7"
+    },
+    "standard": {
+        "globals": [
+            "$"
+        ]
+    }
+}
